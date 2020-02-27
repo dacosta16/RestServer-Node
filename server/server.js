@@ -37,11 +37,8 @@ mongoose.connect(process.env.urlDB, {
 
 
 /*mongoose.connect('mongodb://localhost:27017/cafe', (err, res) => {
-
     if (err) throw err;
-
     console.log('Base de Datos Online');
-
 });*/
 
 app.listen(process.env.PORT, () => {
